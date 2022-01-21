@@ -1,0 +1,34 @@
+.header{
+    background-color: yellow;
+    display: flex;
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.logo-container{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.form{
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    align-items: center;
+}
+
+.textfield{
+    width: 80%;
+    height: 60%;
+    border: 0px;
+    padding-left: 0.5rem;
+    &:focus{outline: none;}
+}
+
+.icon{
+   font-size: 2rem !important;
+   color: black;
+   background-color: white;
+   cursor: pointer;
+}
